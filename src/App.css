@@ -8,11 +8,13 @@ font-family: 'Delicious Handrawn', cursive;
 
 :root {
   --black: #0f172a;
-  --softGrey: #64748b;
+  --softGrey: #948a86;
+  --green:#285c50;
   --blue: #60a5fa;
   --whiteBlue: #eff6ff;
-  --darkBlue: #1e3a8a;
-  --red: #ef4444;
+  --darkBlue: #044d74;
+  --lessDarkBlue:#086292;
+  --red: #de172e;
 }
 
 body {
@@ -28,8 +30,6 @@ body {
 button {
   cursor: pointer;
   border: none;
-  border-radius: 3px;
-  background-color: var(--darkBlue);
   color: var(--whiteBlue);
 }
 
@@ -55,14 +55,14 @@ label {
   display: grid;
   width: 100vw;
   max-height: 100vh;
-  grid-template-columns: 120px 1fr;
+  grid-template-columns: 130px 1fr;
   grid-template-rows: 1;
 }
 
 nav {
     position: fixed;
     height: 100vh;
-    width: 120px;
+    width: 130px;
 }
 .container{
     grid-column: 2/3;
