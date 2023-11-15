@@ -22,12 +22,12 @@ export const Navbar = () => {
   };
 
   return (
-    <div className="navbar">
+    <nav className="navbar">
       <button onClick={() => handleDirection("home", navigate)}>Inicio</button>
       <button onClick={() => handleDirection("doc", navigate)}>Documentos</button>
       <button onClick={handleDownload}>Descargar Zip</button>
       <button onClick={() => handleDirection("modifications", navigate)}>Modificaciones</button>
       <button onClick={() => handleDirection("system", navigate)}>Sistema</button>
-    </div>
+    </nav>
   );
 };
