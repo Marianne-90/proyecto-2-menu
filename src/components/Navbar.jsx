@@ -24,7 +24,7 @@ export const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <img src={logo} alt="logo" />
+      <img src={logo} alt="logo" onClick={() => handleDirection("home", navigate)}/>
       <button onClick={() => handleDirection("home", navigate)}>Inicio</button>
       <button onClick={() => handleDirection("doc", navigate)}>
         Documentos
