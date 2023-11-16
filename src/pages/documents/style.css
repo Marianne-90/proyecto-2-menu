@@ -46,6 +46,14 @@ li{
   font-family: "Times New Roman", Times, serif;
 }
 
+.doc .table tr .completado{
+  background-color: var(--green);
+  color: var(--whiteBlue);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: .8em;
+}
+
 .doc .table tr:first-child td{
     background-color: var(--softGrey);
     color: var(--whiteBlue);

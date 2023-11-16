@@ -10,7 +10,14 @@ export const Table = ({ table }) => {
         return (
           <tr key={index}>
             {column.map((row, subIndex) => {
-              return <td key={subIndex}>{row}</td>;
+              return (
+                <td
+                  key={subIndex}
+                  className={row === "Completado" ? "completado" : ""}
+                >
+                  {row}
+                </td>
+              );
             })}
           </tr>
         );
