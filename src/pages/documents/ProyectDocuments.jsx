@@ -1,5 +1,11 @@
 import "./style.css";
-import { ROLES, SPRINTS_CALENDAR, USER_HISTORY } from "data/doc";
+import {
+  ROLES,
+  SPRINTS_CALENDAR,
+  USER_HISTORY,
+  BACKLOG,
+  SPRINTS,
+} from "data/doc";
 import { Table } from "./Table";
 import { UserHistory } from "./UserHistory";
 
@@ -27,9 +33,33 @@ export const ProyectDocuments = () => {
       <h2>HISTORIAS DE USUARIO</h2>
       <UserHistory table={USER_HISTORY} />
       <h2>PRODUCT BACKLOG</h2>
-      {/* <Table table={ROLES} /> */}
+      <Table table={BACKLOG} />
       <h2>FORMATO SPRINT:</h2>
-      {/* <Table table={ROLES} /> */}
+      <h3>
+        <i> S001 ID de la historia H001, H002, H003 </i>
+      </h3>
+      <Table table={SPRINTS.strints.s1} />
+      <h3>
+        <i> S002 ID de la historia H004, H005, H006, H007</i>
+      </h3>
+      <Table table={SPRINTS.strints.s2} />
+      <h3>
+        <i> S003 ID de la historia H008, H009, H010, H011</i>
+      </h3>
+      <Table table={SPRINTS.strints.s3} />
+      <h3>
+        <i>S004 ID de la historia H012, H013, H014, H015</i>
+      </h3>
+      <Table table={SPRINTS.strints.s4} />
+      <h3>
+        <i>S005 ID de la historia H016</i>
+      </h3>
+      <Table table={SPRINTS.strints.s5} />
+      <h3>
+        <i>S006 ID de la historia H017 y H018</i>
+      </h3>
+      <Table table={SPRINTS.strints.s6} />
+      <Table table={SPRINTS.total} />
       <h2>REFERENCIAS</h2>
       <ul className="referencias">
         <li>Menzinsky A. (2018) “Historias de Usuario”. Scrum Manager</li>

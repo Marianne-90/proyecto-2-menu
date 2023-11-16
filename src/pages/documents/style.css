@@ -49,6 +49,7 @@ li{
 .doc .table tr:first-child td{
     background-color: var(--softGrey);
     color: var(--whiteBlue);
+    font-size: .7em;
     text-transform: uppercase;
 }
 

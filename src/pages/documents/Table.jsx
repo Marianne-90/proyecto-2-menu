@@ -2,11 +2,11 @@ export const Table = ({ table }) => {
   return (
     <div className="table">
       <tr>
-        {table.headers.map((element, index) => {
-          return <td key={index}>element</td>;
+        {table.headers?.map((element, index) => {
+          return <td key={index}>{element}</td>;
         })}
       </tr>
-      {table.columns.map((column, index) => {
+      {table.columns?.map((column, index) => {
         return (
           <tr key={index}>
             {column.map((row, subIndex) => {
