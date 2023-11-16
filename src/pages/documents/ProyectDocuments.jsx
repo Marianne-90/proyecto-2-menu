@@ -1,9 +1,9 @@
 import "./style.css";
 import { ROLES, SPRINTS_CALENDAR, USER_HISTORY } from "data/doc";
 import { Table } from "./Table";
+import { UserHistory } from "./UserHistory";
 
 export const ProyectDocuments = () => {
-
   return (
     <div className="doc">
       <h1>Proyecto 2 Strudel Restaurante</h1>
@@ -24,6 +24,8 @@ export const ProyectDocuments = () => {
         </i>
       </p>
       <Table table={SPRINTS_CALENDAR} />
+      <h2>HISTORIAS DE USUARIO</h2>
+      <UserHistory table={USER_HISTORY} />
     </div>
   );
 };

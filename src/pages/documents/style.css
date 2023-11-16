@@ -13,6 +13,12 @@
   color: var(--darkBlue);
   font-family: "Times New Roman", Times, serif;
 }
+.doc h3{
+  font-size: 1.1em;
+  color: var(--darkBlue);
+  font-family: "Times New Roman", Times, serif;
+}
+
 
 .doc span {
   color: var(--red);
@@ -24,6 +30,10 @@
 
 p{
     font-family: "Times New Roman", Times, serif;
+}
+
+li{
+  font-family: "Times New Roman", Times, serif;
 }
 .doc .table {
   margin-top: 10px;
@@ -54,7 +64,13 @@ p{
   border-left: var(--softGrey) 1px solid;
 }
 
-
+.doc .user-history .history-element {
+  border: var(--softGrey) 1px solid;
+  background-color: rgb(237, 238, 240);
+  margin-bottom: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+}
 
 /* .doc frame tr td:first-child:not(.doc frame tr:first-child td:first-child){
     border-top: var(--darkBlue) 1px solid;
