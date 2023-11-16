@@ -69,9 +69,12 @@ li{
   background-color: rgb(237, 238, 240);
   margin-bottom: 20px;
   padding: 10px;
+  width: 900px;
   box-sizing: border-box;
 }
 
-/* .doc frame tr td:first-child:not(.doc frame tr:first-child td:first-child){
-    border-top: var(--darkBlue) 1px solid;
-} */
+.doc .referencias{
+  max-width: calc(100vw - 230px);
+  overflow-wrap: break-word;
+  word-wrap: break-word
+}
