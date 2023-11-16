@@ -1,0 +1,61 @@
+.doc {
+  padding: 20px;
+}
+
+.doc h1 {
+  color: var(--softGrey);
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+}
+
+.doc h2 {
+  font-size: 1.2em;
+  color: var(--darkBlue);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.doc span {
+  color: var(--red);
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  font-size: .9em;
+}
+
+p{
+    font-family: "Times New Roman", Times, serif;
+}
+.doc .table {
+  margin-top: 10px;
+  border: var(--softGrey) 1px solid;
+  display: inline-block;
+}
+
+.doc .table tr td {
+  padding: 5px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.doc .table tr:first-child td{
+    background-color: var(--softGrey);
+    color: var(--whiteBlue);
+    text-transform: uppercase;
+}
+
+.doc .table tr td:first-child:not(.doc .table tr:first-child td){
+    background-color: rgb(237, 238, 240);
+}
+
+.doc .table tr td:not(.doc .table tr:first-child td) {
+  border-top: var(--softGrey) 1px solid;
+}
+
+.doc .table tr td:not(.doc .table tr td:first-child) {
+  border-left: var(--softGrey) 1px solid;
+}
+
+
+
+/* .doc frame tr td:first-child:not(.doc frame tr:first-child td:first-child){
+    border-top: var(--darkBlue) 1px solid;
+} */

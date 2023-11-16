@@ -1,0 +1,57 @@
+export const USER_HISTORY = [
+    {
+      title: "H001 - Barra Navegación",
+      who: "Cliente",
+      what: "Quiero que exista una barra de navegación clara y concisa",
+      for: "Poder navegar a la información qué deseo conocer.",
+      conditions: [
+        "Enlaces a todas las páginas importantes del sitio web, incluyendo Inicio, Valores-Historia, Menús, Pedidos, Contacto y Ubicación, así como una sección para la Bolsa de trabajo si está disponible en el sitio. (aprobado)",
+        "Los enlaces de la barra de navegación deberán ser claramente legibles (aprobado)",
+        "La barra de navegación deberá ser responsiva (aprobado)",
+        "La barra de navegación deberá aparecer y desaparecer dependiendo si se está subiendo o bajando en la pantalla (aprobado)",
+        "Los enlaces de la barra de navegación deberán estar correctamente ligados (aprobado)",
+        "La barra de navegación deberá estar fijada a la parte superior de la pantalla (aprobado)",
+        "Deberá contener el logotipo del restaurante (aprobado)",
+      ],
+    },
+    {
+      title: "H001 - Barra Navegación",
+      who: "Cliente",
+      what: "Quiero que exista una barra de navegación clara y concisa",
+      for: "Poder navegar a la información qué deseo conocer.",
+      conditions: [
+        "Enlaces a todas las páginas importantes del sitio web, incluyendo Inicio, Valores-Historia, Menús, Pedidos, Contacto y Ubicación, así como una sección para la Bolsa de trabajo si está disponible en el sitio. (aprobado)",
+        "Los enlaces de la barra de navegación deberán ser claramente legibles (aprobado)",
+        "La barra de navegación deberá ser responsiva (aprobado)",
+        "La barra de navegación deberá aparecer y desaparecer dependiendo si se está subiendo o bajando en la pantalla (aprobado)",
+        "Los enlaces de la barra de navegación deberán estar correctamente ligados (aprobado)",
+        "La barra de navegación deberá estar fijada a la parte superior de la pantalla (aprobado)",
+        "Deberá contener el logotipo del restaurante (aprobado)",
+      ],
+    },
+    {
+      title: "H002 - Acceso página principal menú",
+      who: "Cliente",
+      what: "Me gustaría que desde la página principal tuviera acceso a los menús",
+      for: "Porque es lo que más me interesa",
+      conditions: [
+        "La sub barra de navegación deberá tener una imagen representativa de fondo (aprobado)",
+        "La sub barra de navegación no estará fijada a la parte superior de la pantalla (aprobado)",
+        "El botón de los menús deberá llevar a los menús de manera correcta (aprobado)",
+        "El botón de los menús deberá de tener algún efecto o cambio de color con el :hover (aprobado)",
+      ],
+    },
+    {
+      title: "H003 - Banner Principal",
+      who: "Administrador",
+      what: "Poder colocar mis promociones del mes en la página principal",
+      for: "Promover la venta de mis productos.",
+      conditions: [
+        "El slider deberá ser programado de manera escalable para que solo sea necesario añadir una nueva promoción al array para que funcione y no cambiar el resto de la lógica (aprobado)",
+        "El slider deberá contar con botones de derecha e izquierda para cambiar la promoción. (aprobado)",
+        "El slider deberá desplazarse al siguiente slide de manera automática cada 4 segundos (aprobado)",
+        "El slider deberá regresar al slide inicial al llegar al último slide (aprobado)",
+        "El slide deberá contener nombre, descripción y precio de las promociones (aprobado)",
+      ],
+    },
+  ];
