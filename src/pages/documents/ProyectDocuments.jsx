@@ -6,8 +6,8 @@ import {
   BACKLOG,
   SPRINTS,
 } from "data/doc";
-import { Table } from "./Table";
-import { UserHistory } from "./UserHistory";
+import { Table } from "components/Table";
+import { UserHistory } from "components/UserHistory";
 
 export const ProyectDocuments = () => {
   return (

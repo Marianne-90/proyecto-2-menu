@@ -13,7 +13,7 @@ export const Table = ({ table }) => {
               return (
                 <td
                   key={subIndex}
-                  className={row === "Completado" ? "completado" : ""}
+                  className={row === "Completado" || row === "Hecho"  ? "completado" : ""}
                 >
                   {row}
                 </td>

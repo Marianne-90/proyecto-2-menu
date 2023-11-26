@@ -1,0 +1,75 @@
+.mod {
+    padding: 20px;
+  }
+  
+  .mod h1 {
+    color: var(--softGrey);
+    font-family: "Times New Roman", Times, serif;
+    text-transform: uppercase;
+  }
+  
+  .mod h2 {
+    font-size: 1.2em;
+    color: var(--darkBlue);
+    font-family: "Times New Roman", Times, serif;
+  }
+  .mod h3{
+    font-size: 1.1em;
+    color: var(--darkBlue);
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  
+  .mod span {
+    color: var(--red);
+    font-weight: 700;
+    font-family: "Times New Roman", Times, serif;
+    text-transform: uppercase;
+    font-size: .9em;
+  }
+  
+  p{
+      font-family: "Times New Roman", Times, serif;
+  }
+  
+  li{
+    font-family: "Times New Roman", Times, serif;
+  }
+  .mod .table {
+    margin-top: 10px;
+    border: var(--softGrey) 1px solid;
+    display: inline-block;
+  }
+  
+  .mod .table tr td {
+    padding: 5px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .mod .table tr .completado{
+    background-color: var(--green);
+    color: var(--whiteBlue);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: .8em;
+  }
+  
+  .mod .table tr:first-child td{
+      background-color: var(--softGrey);
+      color: var(--whiteBlue);
+      font-size: .7em;
+      text-transform: uppercase;
+  }
+  
+  .mod .table tr td:first-child:not(.mod .table tr:first-child td){
+      background-color: rgb(237, 238, 240);
+  }
+  
+  .mod .table tr td:not(.mod .table tr:first-child td) {
+    border-top: var(--softGrey) 1px solid;
+  }
+  
+  .mod .table tr td:not(.mod .table tr td:first-child) {
+    border-left: var(--softGrey) 1px solid;
+  }
+  
