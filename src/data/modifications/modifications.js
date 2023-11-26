@@ -13,7 +13,7 @@ export const MODIFICATIONS = {
       "R014",
       "S002",
       "Revisión del diseño y navegación del sitio.",
-      "Testear la usabilidad de la navegación del sitio (completado)",
+      "Testear la usabilidad de la navegación del sitio",
       "Completado",
     ],
     [
@@ -21,7 +21,7 @@ export const MODIFICATIONS = {
       "R023",
       "S023",
       "Añadir aviso de privacidad y términos y condiciones",
-      "Añadir con sus respectivas rutas el aviso de privacidad y términos y condiciones, así como añadirlos en el footer y añadir la verificación de los usuarios antes de mandar el formulario (completado)",
+      "Añadir con sus respectivas rutas el aviso de privacidad y términos y condiciones, así como añadirlos en el footer y añadir la verificación de los usuarios antes de mandar el formulario",
       "Completado",
     ],
     [
@@ -29,7 +29,7 @@ export const MODIFICATIONS = {
       "R015",
       "S003",
       "Pruebas y ajustes de la galería de fotos, historia y valores.",
-      "Testear la usabilidad de los botones de visitar menús y promociones Reestructurar el slide de promociones para un mejor rendimiento(completado)",
+      "Testear la usabilidad de los botones de visitar menús y promociones Reestructurar el slide de promociones para un mejor rendimient",
       "Completado",
     ],
     [
@@ -37,7 +37,7 @@ export const MODIFICATIONS = {
       "R016",
       "S003",
       "Revisión de implementación de ingredientes, precios, porciones y costos adicionales en los menús.",
-      "Verificar que las transcripciones sean correctas Considerar añadir información adicional como alérgenos (completado)",
+      "Verificar que las transcripciones sean correctas Considerar añadir información adicional como alérgenos",
       "Completado",
     ],
     [
@@ -45,7 +45,7 @@ export const MODIFICATIONS = {
       "S004",
       "R017",
       "Pruebas y ajustes de datos de contacto, formulario de contacto y mapa de Google Maps.",
-      "Asegurarnos que los datos de contacto sean fáciles de encontrar y que estén actualizados Testear las validaciones de campo Verificar la correcta implementación de Google Maps Añadir checkbox donde se aceptan las políticas de privacidad y manejo de datos personales (completado)",
+      "Asegurarnos que los datos de contacto sean fáciles de encontrar y que estén actualizados Testear las validaciones de campo Verificar la correcta implementación de Google Maps Añadir checkbox donde se aceptan las políticas de privacidad y manejo de datos personales",
       "Completado",
     ],
     [
@@ -53,7 +53,7 @@ export const MODIFICATIONS = {
       "R018",
       "S005",
       "Revisión de la plantilla de ofertas laborales.",
-      "Analizar el Ux de la plantilla de ofertas laborales y hacer las modificaciones pertinentes (completado)",
+      "Analizar el Ux de la plantilla de ofertas laborales y hacer las modificaciones pertinentes",
       "Completado",
     ],
     [
@@ -61,7 +61,7 @@ export const MODIFICATIONS = {
       "R019",
       "S005",
       "Pruebas y ajustes en las ofertas laborales.",
-      "Testea la usabilidad de la plantilla de ofertas laborales y en caso ser necesario hacer las modificaciones pertinentes(completado)",
+      "Testea la usabilidad de la plantilla de ofertas laborales y en caso ser necesario hacer las modificaciones pertinente",
       "Completado",
     ],
     [
@@ -69,7 +69,7 @@ export const MODIFICATIONS = {
       "R020",
       "S006",
       "Revisión de la implementación de botones en los menús y página de pedidos",
-      "Testear el correcto funcionamiento de los botones de menús para agregar los pedidos (completado)",
+      "Testear el correcto funcionamiento de los botones de menús para agregar los pedidos",
       "Completado",
     ],
     [
@@ -77,7 +77,7 @@ export const MODIFICATIONS = {
       "R021",
       "S006",
       "Pruebas y ajustes de la configuración de la API de WhatsApp.",
-      "Asegurarnos de  que la configuración de la API de WhatsApp funcione sin problemas Añadir una alerta en la que se se solicite al cliente no compartir datos bancarios a través de whatsapp (completado)",
+      "Asegurarnos de  que la configuración de la API de WhatsApp funcione sin problemas Añadir una alerta en la que se se solicite al cliente no compartir datos bancarios a través de whatsapp",
       "Completado",
     ],
   ],

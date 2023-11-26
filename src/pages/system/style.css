@@ -1,0 +1,75 @@
+.sis {
+  padding: 20px;
+}
+
+.sis h1 {
+  color: var(--softGrey);
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+}
+
+.sis h2 {
+  font-size: 1.2em;
+  color: var(--darkBlue);
+  font-family: "Times New Roman", Times, serif;
+}
+.sis h3 {
+  font-size: 1.1em;
+  color: var(--darkBlue);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.sis .enlace {
+  border: var(--softGrey) 1px solid;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(128, 128, 128, 0.089)
+}
+
+
+.sis .enlace a{
+  background-color: var(--green);
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  border-radius: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.sis .enlace a:hover{
+  text-decoration: underline;
+}
+
+.sis .enlace div:nth-child(2){
+  margin-top: 10px;
+}
+
+.sis .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.sis .gallery .img{
+  width: 250px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sis .gallery .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sis .gallery .img img:hover{
+  width: 110%;
+  height: 110%;
+}

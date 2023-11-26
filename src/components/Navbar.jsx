@@ -1,10 +1,14 @@
 import "./style.css";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import { handleDirection } from "utils/navigationUtils";
 import logo from "img/udgvirtual_logo.png";
 
 export const Navbar = () => {
   const navigate = useNavigate();
+
+  const isActive = (path) => {
+    return location.pathname === path;
+  };
 
   const handleDownload = () => {
     try {
@@ -24,18 +28,36 @@ export const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <img src={logo} alt="logo" onClick={() => handleDirection("home", navigate)}/>
-      <button onClick={() => handleDirection("home", navigate)}>Inicio</button>
-      <button onClick={() => handleDirection("doc", navigate)}>
+      <img
+        src={logo}
+        alt="logo"
+        onClick={() => handleDirection("home", navigate)}
+      />
+      <button
+        className={isActive("/") || isActive("/home") ? "active" : ""}
+        onClick={() => handleDirection("home", navigate)}
+      >
+        Inicio
+      </button>
+      <button
+        className={isActive("/doc") ? "active" : ""}
+        onClick={() => handleDirection("doc", navigate)}
+      >
         Documentos
       </button>
       <button onClick={handleDownload} id="download">
         Descargar Zip
       </button>
-      <button onClick={() => handleDirection("modifications", navigate)}>
+      <button
+        className={isActive("/modifications") ? "active" : ""}
+        onClick={() => handleDirection("modifications", navigate)}
+      >
         Modificaciones
       </button>
-      <button onClick={() => handleDirection("system", navigate)}>
+      <button
+        className={isActive("/system") ? "active" : ""}
+        onClick={() => handleDirection("system", navigate)}
+      >
         Sistema
       </button>
     </nav>
